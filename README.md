@@ -6,6 +6,19 @@
 目前存储在该库的文件包含列表
 
 --------------
+## **winsound-10** Windows10 声音包
+
+别看，看就是系统声音。
+
+这是系统Windows/media文件夹的直接压缩。
+
+未加密，开放
+
+下载链接：<br>
+[**从Github获取**](https://github.com/SteveZMTstudios/sharepoint/releases/tag/winsound-10)<br>
+[**从蓝奏云获取**](https://stevezmt-studios.lanzouy.com/iwfwb0bubl5e)附加值：8848
+
+------
 
 ## **other0.1** lstudio_video_1634395411544_2022-08-30_153243_2022-08-30_153419.7z 
 
