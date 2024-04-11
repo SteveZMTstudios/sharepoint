@@ -19,9 +19,9 @@ com.android.webview
 com.google.android.webview
 com.google.android.trichromelibrary
 ```
-[原帖地址:酷安](https://www.coolapk.com/feed/54328099?shareKey=ZTEwZTg5ZTlkYTVhNjVmMjZjOGM~)
+[![View Source](https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%8E%9F%E5%B8%96-green)](https://www.coolapk.com/feed/54328099?shareKey=ZTEwZTg5ZTlkYTVhNjVmMjZjOGM~)
 
-[huang1111网盘](https://pan.huang1111.cn/s/O7VyHL)
+[![Get it from huang1111](https://img.shields.io/badge/%E4%BB%8E_huang1111_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://pan.huang1111.cn/s/O7VyHL)
 
 ### Phigros 安装程序
 
@@ -32,35 +32,33 @@ com.google.android.trichromelibrary
 ### 1ceboxTurner
 冰箱应用程序的附加xp组件<br>已经下架
 
-[huang1111 网盘](https://pan.huang1111.cn/s/7DlDHg)
+[![Get it from huang1111](https://img.shields.io/badge/%E4%BB%8E_huang1111_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://pan.huang1111.cn/s/7DlDHg)
 
 ### Xposed 框架安装包
 解决xposed.info打不开的问题。
 
-[huang1111 网盘](https://pan.huang1111.cn/s/yY7kU6?path=/)
-[123云盘](https://www.123pan.com/s/OS4KVv-UMcrv.html)
+[![Get it from huang1111](https://img.shields.io/badge/%E4%BB%8E_huang1111_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://pan.huang1111.cn/s/yY7kU6?path=/)
+[![Get it from 123pan](https://img.shields.io/badge/%E4%BB%8E_123%E4%BA%91%E7%9B%98_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://www.123pan.com/s/OS4KVv-UMcrv.html)
 
 ### mtkclient livedvdV4镜像
 详细项目参考[mtkclient](https://github.com/bkerler/mtkclient)
 
-[huang1111 网盘](https://pan.huang1111.cn/s/4o14fg)
+[![Get it from huang1111](https://img.shields.io/badge/%E4%BB%8E_huang1111_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://pan.huang1111.cn/s/4o14fg)
 
 ### 支付宝安全校验服务
-[原帖地址](https://www.coolapk1s.com/feed/45618482)
+[![View Source](https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%8E%9F%E5%B8%96-green)](https://www.coolapk1s.com/feed/45618482)
 
-[123云盘](https://www.123pan.com/s/OS4KVv-tLbrv.html)
+[![Get it from 123pan](https://img.shields.io/badge/%E4%BB%8E_123%E4%BA%91%E7%9B%98_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://www.123pan.com/s/OS4KVv-tLbrv.html)
 
 ### Pixel 预装程序
-[原帖地址](https://www.coolapk1s.com/feed/45186902)
+[![View Source](https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%8E%9F%E5%B8%96-green)](https://www.coolapk1s.com/feed/45186902)
 
-[123 云盘](https://www.123pan.com/s/OS4KVv-hibrv.html)
+[![Get it from 123pan](https://img.shields.io/badge/%E4%BB%8E_123%E4%BA%91%E7%9B%98_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://www.123pan.com/s/OS4KVv-hibrv.html)
 
 ------
 
 ## 玩飞一台翻译词典笔(非root方案)
-[原帖地址](https://www.coolapk1s.com/feed/49767646)
-
-
+[![View Source](https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%8E%9F%E5%B8%96-green)](https://www.coolapk1s.com/feed/49767646)
 ### 程控 文件夹
 
 包含的文件
@@ -69,13 +67,14 @@ bluetooth mouse and keyboard
 甲壳虫ADB工具箱
 ```
 
-[蓝奏云网盘](https://dex2oat.lanzouq.com/b03wulbud)`https://dex2oat.lanzouq.com/b03wulbud`
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wulbud)`https://dex2oat.lanzouq.com/b03wulbud`
 
 ### 基本套件 文件夹
 
 <details> <summary>包含的文件</summary>
 
 ```
+
 Root Explorer_v4.9.2.apk
 4.5 M
 
@@ -146,14 +145,14 @@ Android 动态壁纸_4.4.4-eng.sundalin.20201211.035647.apk
 
 </details>
 
-[蓝奏云网盘](https://dex2oat.lanzouq.com/b03wulc1a)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wulc1a)
 
 ### 附加组件 文件夹
 
 <details> <summary>包含的文件</summary>
 
 ```
-件名
+
 via-release-cn.apk
 1.7 M
 
@@ -230,17 +229,18 @@ Android System WebView-83.0.4103.10.apk
 
 </details>
 
-[蓝奏云网盘](https://dex2oat.lanzouq.com/b03wuld2h)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wuld2h)
 
 ----
 ## 玩飞一台翻译词典笔-获取root方案
-[原帖地址](https://www.coolapk1s.com/feed/49767646)
+[![View Source](https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%8E%9F%E5%B8%96-green)](https://www.coolapk1s.com/feed/49767646)
 
 ### Work with Rom (WWR)
 
 <details> <summary>包含的文件</summary>
 
 ```
+
 WwR_MTK_v2.30.7z
 16.4 M
 
@@ -254,12 +254,13 @@ WWR解包程序.zip
 
 </details>
 
-[蓝奏云](https://dex2oat.lanzouq.com/b03wxrn1a)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wxrn1a)
 
 ### SP Flash Tool v5 (SPFT)
 <details> <summary>包含的文件</summary>
 
 ```
+
 SP_Flash_Tool_v5.1904_Win.rar
 36.0 M
 
@@ -267,14 +268,16 @@ miflashtool.txt
 175.0 B
 
 ```
+
 </details>
 
-[蓝奏云](https://dex2oat.lanzouq.com/b03wxrn2b)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wxrn2b)
 
 ### MTKclient
 <details> <summary>包含的文件</summary>
 
 ```
+
 MTKclient_livecd_dlink.txt
 140.0 B
 
@@ -288,12 +291,11 @@ mtkclient-main.zip
 26.7 M
 
 ```
-
 </details>
 
-[蓝奏云](https://dex2oat.lanzouq.com/b03wxrn6f)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wxrn6f)
 
-[Live DVD](/#-mtkclient-livedvdV4镜像)
+[Live DVD](#mtkclient-livedvdv4镜像)
 
 ### MTK Bypass tool
 <details> <summary>包含的文件</summary>
@@ -307,7 +309,7 @@ MTKAuthBypassTool31.zip
 
 </details>
 
-[蓝奏云](https://dex2oat.lanzouq.com/b03wxrn9i)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b03wxrn9i)
 
 ----
 ### 刷机工具合集
@@ -320,6 +322,7 @@ MTKAuthBypassTool31.zip
 <details> <summary>包含的文件</summary>
 
 ```
+
 9008tool分区备份用法.docx
 242.4 K
 
@@ -471,7 +474,7 @@ bootimg(用来解包boot.exe
 
 </details>
 
-[蓝奏云](https://dex2oat.lanzouq.com/b00b3j8xpg)
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://dex2oat.lanzouq.com/b00b3j8xpg)
 
 密码(2024-04-11更新):`盗包死妈`
 
@@ -479,12 +482,12 @@ bootimg(用来解包boot.exe
 ------
 ### 云p3 视频转换工具
 
-详细信息查看[详情页](https://github.com/SteveZMTstudios/sharepoint/releases/tag/pwconverter-1.0)
+详细信息查看[![View Source](https://img.shields.io/badge/%E6%9F%A5%E7%9C%8B%E5%8E%9F%E5%B8%96-green)](https://github.com/SteveZMTstudios/sharepoint/releases/tag/pwconverter-1.0)
 
 未加密，开放
 所有人都可下载
 
-[**从Github获取**](https://github.com/SteveZMTstudios/sharepoint/releases/download/pwconverter-1.0/PwConverter.zip)
+[![Get it from Github](https://img.shields.io/badge/%E4%BB%8E_Github_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green?logo=Github)](https://github.com/SteveZMTstudios/sharepoint/releases/download/pwconverter-1.0/PwConverter.zip)
 
 --------------
 ### **winsound-10** Windows 10 声音包
@@ -499,13 +502,11 @@ bootimg(用来解包boot.exe
 所有人都可免费下载。
 
 从以下链接获取：<br>
-[**从Github获取**](https://github.com/SteveZMTstudios/sharepoint/releases/tag/winsound-10)<br>
-[**从蓝奏云获取**](https://stevezmt-studios.lanzouy.com/iwfwb0bubl5e) *验证码：8848*
+[![Get it from Github](https://img.shields.io/badge/%E4%BB%8E_Github_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green?logo=Github)](https://github.com/SteveZMTstudios/sharepoint/releases/tag/winsound-10)<br>
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://stevezmt-studios.lanzouy.com/iwfwb0bubl5e) 验证码：`8848`
 
 ----------
 ### **winsound-11** Windows 11 声音包
-
-
 别看，看就是系统声音。
 
 这是系统Windows/media文件夹的直接压缩。<br>
@@ -516,9 +517,8 @@ bootimg(用来解包boot.exe
 所有人都可免费下载。<br>
 
 从以下链接获取：<br>
-[**从Github获取**](https://github.com/SteveZMTstudios/sharepoint/releases/tag/winsound-11)<br>
-[**从蓝奏云获取**](https://stevezmt-studios.lanzouy.com/iGob40buc7ta) *验证码：8848*
-
+[![Get it from Github](https://img.shields.io/badge/%E4%BB%8E_Github_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green?logo=Github)](https://github.com/SteveZMTstudios/sharepoint/releases/tag/winsound-11)<br>
+[![Get it from lanzou cloud](https://img.shields.io/badge/%E4%BB%8E_%E8%93%9D%E5%A5%8F%E4%BA%91_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green)](https://stevezmt-studios.lanzouy.com/iGob40buc7ta) 验证码：`8848`
 
 ----------
 ### **Phigros** Phigros 2.4.0 apk
@@ -529,8 +529,7 @@ bootimg(用来解包boot.exe
 开放<br>
 
 从以下链接获取：<br>
-[**从Github获取**](https://github.com/SteveZMTstudios/sharepoint/releases/tag/phigros-2.4.0)
-
+[![Get it from Github](https://img.shields.io/badge/%E4%BB%8E_Github_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green?logo=Github)](https://github.com/SteveZMTstudios/sharepoint/releases/tag/phigros-2.4.0)
 
 ------
 
@@ -550,20 +549,16 @@ a8e532533b41bcfe4dc8353c3665a9c44b7c6ca18a4fbbe2a9ee0e02cd95f455
 您如果没有获得密码，则说明该文件您无权访问。<br>
 
 您可以从以下的链接下载：<br>
-[**从Github高速下载**](https://github.com/SteveZMTstudios/sharepoint/releases/tag/other-0.1)<br>
+[![Get it from Github](https://img.shields.io/badge/%E4%BB%8E_Github_%E4%B8%8B%E8%BD%BD-%E8%8E%B7%E5%8F%96-green?logo=Github)](https://github.com/SteveZMTstudios/sharepoint/releases/tag/other-0.1)<br>
 
 ----------------
 ### **other0.2**beepcard.zip
 <br>暑假作业打卡三份压缩包
 到期时间：极短<br>
 *已加密*<br>
-
-
 您如果没有获得密码，则说明该文件您无权访问。<br>
 您可以从以下的链接下载：<br>
+![Removed invalid link](https://img.shields.io/badge/%C3%97_%E6%96%87%E4%BB%B6%E5%B7%B2%E7%A7%BB%E9%99%A4-red)
 
-
-*文件已移除。*
 
 ------
-
