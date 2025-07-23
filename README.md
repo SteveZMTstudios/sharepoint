@@ -9,6 +9,10 @@
 
 -------
 
+### Google 拼音输入法   
+复刻已经不再能够访问的 googlepinyin.com ,保留了相关链接以供参考
+[访问页面副本]
+
 ### Android System Webview
 各种版本持续更新，按照最小安卓版本分类
 
