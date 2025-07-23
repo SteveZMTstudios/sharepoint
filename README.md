@@ -10,11 +10,13 @@
 -------
 
 ### Google 拼音输入法   
-复刻已经不再能够访问的 googlepinyin.com ,保留了相关链接以供参考
-[访问页面副本](/googlepinyin/index.html)
+复刻已经不再能够访问的 googlepinyin.com ,保留了相关链接以供参考  
+[![访问页面副本](https://img.shields.io/badge/访问页面副本-g)](/googlepinyin/index.html) 
+
+[![View Source](https://img.shields.io/badge/查看_web.archive.org_上的副本-grey)](http://web.archive.org/web/20250418080413/https://googlepinyin.com/#expand)
 
 ### Android System Webview
-各种版本持续更新，按照最小安卓版本分类
+各种版本持续更新，按照最小安卓版本分类  
 
 包含的条目:
 ```
