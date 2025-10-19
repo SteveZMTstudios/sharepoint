@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Test API 功能检查网页</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .api-section { margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; }
+        button { margin: 5px; padding: 10px; }
+        .result { background-color: #f0f0f0; padding: 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Take a Test API 功能检查网页</h1>
+    <p>此网页用于测试 Take a Test JavaScript API 的各个功能。确保在支持的浏览器中运行。</p>
+    <div id="status"></div>
+
+    <div class="api-section">
+        <h2>lockDown</h2>
+        <button onclick="testLockDown(true)">启用锁定</button>
+        <button onclick="testLockDown(false)">禁用锁定</button>
+        <div class="result" id="lockDownResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>isEnvironmentSecure</h2>
+        <button onclick="testIsEnvironmentSecure()">检查环境安全</button>
+        <div class="result" id="isEnvironmentSecureResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>getDeviceInfo</h2>
+        <button onclick="testGetDeviceInfo()">获取设备信息</button>
+        <div class="result" id="getDeviceInfoResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>examineProcessList</h2>
+        <input type="text" id="denylist" placeholder="拒绝列表进程，如 'notepad.exe'" />
+        <button onclick="testExamineProcessList()">检查进程列表</button>
+        <div class="result" id="examineProcessListResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>close</h2>
+        <button onclick="testClose()">关闭浏览器</button>
+        <div class="result" id="closeResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>getPermissiveMode</h2>
+        <button onclick="testGetPermissiveMode()">获取宽松模式</button>
+        <div class="result" id="getPermissiveModeResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>setPermissiveMode</h2>
+        <button onclick="testSetPermissiveMode(true)">启用宽松模式</button>
+        <button onclick="testSetPermissiveMode(false)">禁用宽松模式</button>
+        <div class="result" id="setPermissiveModeResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>emptyClipBoard</h2>
+        <button onclick="testEmptyClipBoard()">清空剪贴板</button>
+        <div class="result" id="emptyClipBoardResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>getMACAddress</h2>
+        <button onclick="testGetMACAddress()">获取MAC地址</button>
+        <div class="result" id="getMACAddressResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>getStartTime</h2>
+        <button onclick="testGetStartTime()">获取启动时间</button>
+        <div class="result" id="getStartTimeResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>getCapability</h2>
+        <select id="capabilityFeature">
+            <option value="screenMonitoring">screenMonitoring</option>
+            <option value="printing">printing</option>
+            <option value="textSuggestions">textSuggestions</option>
+        </select>
+        <button onclick="testGetCapability()">获取功能状态</button>
+        <div class="result" id="getCapabilityResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>setCapability</h2>
+        <select id="setCapabilityFeature">
+            <option value="screenMonitoring">screenMonitoring</option>
+            <option value="printing">printing</option>
+            <option value="textSuggestions">textSuggestions</option>
+        </select>
+        <select id="setCapabilityValue">
+            <option value="true">true</option>
+            <option value="false">false</option>
+        </select>
+        <button onclick="testSetCapability()">设置功能</button>
+        <div class="result" id="setCapabilityResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>isRemoteSession</h2>
+        <button onclick="testIsRemoteSession()">检查远程会话</button>
+        <div class="result" id="isRemoteSessionResult"></div>
+    </div>
+
+    <div class="api-section">
+        <h2>isVMSession</h2>
+        <button onclick="testIsVMSession()">检查VM会话</button>
+        <div class="result" id="isVMSessionResult"></div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            if (typeof SecureBrowser === 'undefined') {
+                document.getElementById('status').innerHTML = '<p style="color: red;">SecureBrowser 对象不可用。此网页需要在支持 Take a Test API 的浏览器中运行。</p>';
+                var openBtn = document.createElement('button');
+                openBtn.textContent = '前往 Secure Assessment';
+                openBtn.onclick = function() {
+                    window.location.href = 'ms-edu-secureassessment:https://stevezmt.top/sharepoint/cdn/page/takeatest-apicheck.html#enableTextSuggestion';
+                };
+                openBtn.style.marginLeft = '10px';
+                document.getElementById('status').appendChild(openBtn);
+            } else {
+                document.getElementById('status').innerHTML = '<p style="color: green;">SecureBrowser 对象可用。</p>';
+            }
+        };
+
+        function testLockDown(enable) {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.lockDown(enable, 
+                function(state) { document.getElementById('lockDownResult').innerHTML = '成功: ' + state; },
+                function(state) { document.getElementById('lockDownResult').innerHTML = '错误: ' + state; }
+            );
+        }
+
+        function testIsEnvironmentSecure() {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.isEnvironmentSecure(function(state) {
+                document.getElementById('isEnvironmentSecureResult').innerHTML = '结果: ' + JSON.stringify(state);
+            });
+        }
+
+        function testGetDeviceInfo() {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.getDeviceInfo(function(info) {
+                document.getElementById('getDeviceInfoResult').innerHTML = '设备信息: ' + JSON.stringify(info);
+            });
+        }
+
+        function testExamineProcessList() {
+            if (!SecureBrowser) return;
+            var denylist = document.getElementById('denylist').value.split(',').map(s => s.trim());
+            SecureBrowser.security.examineProcessList(denylist, function(processes) {
+                document.getElementById('examineProcessListResult').innerHTML = '找到的进程: ' + processes;
+            });
+        }
+
+        function testClose() {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.close(false);
+            document.getElementById('closeResult').innerHTML = '关闭命令已发送';
+        }
+
+        function testGetPermissiveMode() {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.getPermissiveMode(function(mode) {
+                document.getElementById('getPermissiveModeResult').innerHTML = '宽松模式: ' + mode;
+            });
+        }
+
+        function testSetPermissiveMode(enable) {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.setPermissiveMode(enable, function(mode) {
+                document.getElementById('setPermissiveModeResult').innerHTML = '设置成功: ' + mode;
+            });
+        }
+
+        function testEmptyClipBoard() {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.emptyClipBoard();
+            document.getElementById('emptyClipBoardResult').innerHTML = '剪贴板已清空';
+        }
+
+        function testGetMACAddress() {
+            if (!SecureBrowser) return;
+            SecureBrowser.security.getMACAddress(function(addresses) {
+                document.getElementById('getMACAddressResult').innerHTML = 'MAC地址: ' + addresses;
+            });
+        }
+
+        function testGetStartTime() {
+            if (!SecureBrowser) return;
+            var time = SecureBrowser.security.getStartTime();
+            document.getElementById('getStartTimeResult').innerHTML = '启动时间: ' + time;
+        }
+
+        function testGetCapability() {
+            if (!SecureBrowser) return;
+            var feature = document.getElementById('capabilityFeature').value;
+            var result = SecureBrowser.security.getCapability(feature);
+            document.getElementById('getCapabilityResult').innerHTML = '功能状态: ' + JSON.stringify(result);
+        }
+
+        function testSetCapability() {
+            if (!SecureBrowser) return;
+            var feature = document.getElementById('setCapabilityFeature').value;
+            var value = document.getElementById('setCapabilityValue').value;
+            SecureBrowser.security.setCapability(feature, value, 
+                function(result) { document.getElementById('setCapabilityResult').innerHTML = '成功: ' + JSON.stringify(result); },
+                function(result) { document.getElementById('setCapabilityResult').innerHTML = '错误: ' + JSON.stringify(result); }
+            );
+        }
+
+        function testIsRemoteSession() {
+            if (!SecureBrowser) return;
+            var isRemote = SecureBrowser.security.isRemoteSession();
+            document.getElementById('isRemoteSessionResult').innerHTML = '远程会话: ' + isRemote;
+        }
+
+        function testIsVMSession() {
+            if (!SecureBrowser) return;
+            var isVM = SecureBrowser.security.isVMSession();
+            document.getElementById('isVMSessionResult').innerHTML = 'VM会话: ' + isVM;
+        }
+    </script>
+</body>
+</html>
