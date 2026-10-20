@@ -8,8 +8,8 @@
       .spinner circle { stroke: #4493f855; }
     }
   </style>
-  <circle cx="8" cy="8" r="6" fill="none" stroke-width="2"/>
-  <path d="M 8 2 A 6 6 0 0 1 13.91 9.04" fill="none"
+  <circle cx="8" cy="8" r="7" fill="none" stroke-width="2"/>
+  <path d="M 8 1 A 7 7 0 0 1 14.89 9.22" fill="none"
         stroke-width="2" stroke-linecap="round">
     <animateTransform attributeName="transform" type="rotate"
       from="0 8 8" to="360 8 8" dur="1.53s" repeatCount="indefinite"/>
