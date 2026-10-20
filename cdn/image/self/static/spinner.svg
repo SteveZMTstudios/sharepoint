@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14" class="spinner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" class="spinner">
   <style>
     .spinner path   { stroke: #0969da; }
     .spinner circle { stroke: #0969da55; }
@@ -8,10 +8,10 @@
       .spinner circle { stroke: #4493f855; }
     }
   </style>
-  <circle cx="7" cy="9" r="4.25" fill="none" stroke-width="1.5"/>
-  <path d="M 7 4.75 A 4.25 4.25 0 0 1 11.18 8.26" fill="none"
-        stroke-width="1.5" stroke-linecap="round">
+  <circle cx="8" cy="8" r="6" fill="none" stroke-width="2"/>
+  <path d="M 8 2 A 6 6 0 0 1 13.91 9.04" fill="none"
+        stroke-width="2" stroke-linecap="round">
     <animateTransform attributeName="transform" type="rotate"
-      from="0 7 9" to="360 7 9" dur="1.53s" repeatCount="indefinite"/>
+      from="0 8 8" to="360 8 8" dur="1.53s" repeatCount="indefinite"/>
   </path>
 </svg>
